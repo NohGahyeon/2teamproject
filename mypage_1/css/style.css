@@ -1,0 +1,378 @@
+*{
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    margin-top: 10px;
+}
+#container button{
+    cursor: pointer;
+}
+/* 상단 */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+}
+#h_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 160px;
+}
+.h_mn{
+    display: flex;
+    justify-content: end;
+    width: 1000px;
+    height: 20px;
+    display: flex;
+}
+.h_mn button{
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+}
+/* nav 메뉴 */
+header nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+header nav .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 50px;
+}
+.nav li button{
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.nav li button:hover{
+    background-color: #333;
+    color: white;
+}
+
+/* 컨텐츠 css 부분 */
+
+article{ /* 임시 */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article #content{ /* 임시 */
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    margin: 20px auto;
+}
+
+/* mypage */
+
+.titleArea{
+    border-bottom: 2px solid black;
+    font-size: larger;
+    height:40px;
+    margin: 0 0 15px;
+}
+.membershiptier_bg{
+    width:100%;
+    height:100px;
+    border: 1px solid #d7d5d5;
+    
+}
+.membershiptier {
+    display: table;
+    table-layout: fixed;
+    padding: 13px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.description {
+    display: table-cell;
+    padding: 0 10px;
+    width: auto;
+    line-height: 1.5em;
+    border-left: 1px solid #e8e8e8;
+    vertical-align: middle;
+    
+}
+.user_tier{
+
+    margin-left:15px;
+    text-align: center;
+    font-size:11px;
+    color:gray;
+}
+
+.user{
+    display: table-cell;
+    padding: 0 15px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mileage{
+    margin-top:13px;
+    width:100%;
+    height:130px;
+    border: 4px solid lightgray;
+}
+
+.mileage .mleft {
+    width:50%;
+    height:100%;
+    float:left;
+    border-right:1px solid lightgray;
+}
+.mileage .mright {
+    width:50%;
+    height:100%;
+    float:right;
+}
+
+.cash{
+    font-size:small;
+}
+
+ul {
+    
+}
+
+.mileage ul li {
+    float: left;
+    margin: 5px 0 5px 0;
+    width: 50%;
+    height: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.myorder {
+    margin-top:20px;
+    width:100%;
+    height: 130px;
+    border:1px solid black;
+}
+
+.myorder h3{
+    font-size : 13px;
+}
+
+.myorder-title{
+    padding: 11px 21px;
+    margin: 0;
+    border-bottom: 1px solid #e9e9e9;
+    background-color: #f6f6f6;
+}
+
+.state {
+    padding:19px 0px;
+}
+.state li {
+    float:left;
+    width :25%;
+    padding : 0 0 4px;
+    margin : 0 -1px 0 0;
+    border-right: 1px dotted #c9c7ca;
+    text-align : center;
+}
+
+.state li strong{
+    display: block;
+    margin: 2px 0 7px;
+    font-size: 14px;
+    color: #353535;
+}
+.state li a {
+    text-decoration: none;
+}
+.count{
+    
+    font-size: 24px;
+    color: #333;
+}
+
+#myShopMain{
+    margin-top: 40px;
+    display:flex;
+    position: relative;
+}
+.shopMain-order{
+    float: left;
+    width: 238px;
+    height: 265px;
+    margin-left: 40px;
+    padding: 40px 15px;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    text-align: center;
+}
+.shopMain-profile{
+    float: left;
+    width: 238px;
+    height: 265px;
+    margin-left: 100px;
+    padding: 40px 15px;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    text-align: center;
+}
+.shopMain-board{
+    float: left;
+    width: 238px;
+    height: 265px;
+    margin-left: 100px;
+    padding: 40px 15px;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.myShopMain-text-link {
+    text-align: center;
+}
+
+
+#myShopMain img{
+    padding-bottom:18px;
+
+}
+#myShopMain a{
+    text-decoration: none;
+    color:#333
+}
+#myShopMain p{
+    font-size:13px;
+    text-align: center;
+    padding: 45px 0 0 0;
+    color:gray;
+}
+
+
+
+
+
+
+
+/* 하단 부분 */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+footer .f_in{
+    width: 1000px;
+}
+footer .f_info{
+    padding: 15px 0;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+}
+footer .f_info li{
+    border-right: 1px solid #ccc;
+    height: 17px;
+}
+footer .f_info button{
+    width: 200px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+footer .f_info button:hover{
+    font-weight: 700;
+}
+.f_in .f_info li:last-child{
+    border-right: 0;
+}
+
+.f_in .f_info2{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.f_info2 div{
+    display: flex;
+    flex-direction: column;  
+    height: 200px;
+}
+.f_info2 .customer{
+    width: 330px;
+    border-right: 1px solid #ccc;
+    margin-right: 30px;
+}
+.customer h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.customer strong{
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+}
+.customer span{
+    font-size: 13px;
+    color: #333;
+    margin: 5px;
+}
+
+.f_info2 .return{
+    width: 450px;
+    margin-bottom: 15px;
+}
+.return h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.return strong{
+    margin: 10px 0;
+    font-size: 15px;
+    color: red;
+}
+.return span{
+    font-size: 13px;
+    color: #333;
+}
+.f_in address{
+    padding-top: 15px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 100px;
+    border-top: 1px solid #ccc;
+}
+address h3{
+    font-size: 15px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 400px;
+}
+address span{
+    font-size: 12px;
+}
