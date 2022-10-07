@@ -1,0 +1,337 @@
+*{
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    margin-top: 10px;
+}
+#container button{
+    cursor: pointer;
+}
+/* 상단 */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+}
+#h_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 160px;
+}
+.h_mn{
+    display: flex;
+    justify-content: end;
+    width: 1000px;
+    height: 20px;
+    display: flex;
+}
+.h_mn button{
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+}
+/* nav 메뉴 */
+header nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+header nav .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 50px;
+}
+.nav li button{
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.nav li button:hover{
+    background-color: #333;
+    color: white;
+}
+
+/* 컨텐츠 부분 */
+
+article{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article #content{ 
+    display: flex;
+
+    justify-content: center;
+    height: auto;
+}
+article #content .product_img{
+    width: 600px;
+}
+.product_img img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.fix_info{
+    width: 400px;
+    height: 410px;
+    position: sticky;
+    top: 25%;
+    border: 1px solid #ccc;
+    padding: 25px 0px 0 35px;
+    margin: 50px 0 30px 5px;
+
+}
+.fix_info .product_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+.product_info h2{
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+}
+.product_info span{
+    font-weight: 600;
+}
+.product_info .size{
+    margin: 70px 0 15px 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.size li{
+    width: 50px;
+    height: 50px;
+}
+.size li button{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #333;
+    margin-left: 10px;
+}
+.size li button:hover{
+    background-color: #333;
+    color: white;
+}
+
+
+.product_info .click button{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+}
+.product_info .click .bag{
+    margin-top: 10px;
+    background-color: #ccc;
+}
+.bag:hover{
+    opacity: 80%;
+}
+.product_info .click .buy{
+    background-color: #333;
+    color: white;
+    margin-bottom: 30px;
+}
+.buy:hover{
+    opacity: 80%;
+}
+#style-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+}
+#style-content h2{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#style-content ul{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#style-content ul li{
+    width: 350px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#style-content ul li button{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+}
+#style-content ul li img{
+    width: 100%;
+}
+#style-content ul li img:hover{
+    width: 95%;
+}
+
+#style-content ul li span{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#style-content .p-title{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+article .view_up{
+    position: fixed;
+    right: 70px;
+    bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+
+}
+.view_up button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.view_up button i{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    color: #333;
+}
+
+
+/* 하단 부분 */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+footer .f_in{
+    width: 1000px;
+}
+footer .f_info{
+    padding: 15px 0;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+}
+footer .f_info li{
+    border-right: 1px solid #ccc;
+    height: 17px;
+}
+footer .f_info button{
+    width: 200px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+footer .f_info button:hover{
+    font-weight: 700;
+}
+.f_in .f_info li:last-child{
+    border-right: 0;
+}
+
+.f_in .f_info2{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.f_info2 div{
+    display: flex;
+    flex-direction: column;  
+    height: 200px;
+}
+.f_info2 .customer{
+    width: 330px;
+    border-right: 1px solid #ccc;
+    margin-right: 30px;
+}
+.customer h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.customer strong{
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+}
+.customer span{
+    font-size: 13px;
+    color: #333;
+    margin: 5px;
+}
+
+.f_info2 .return{
+    width: 450px;
+    margin-bottom: 15px;
+}
+.return h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.return strong{
+    margin: 10px 0;
+    font-size: 15px;
+    color: red;
+}
+.return span{
+    font-size: 13px;
+    color: #333;
+}
+.f_in address{
+    padding-top: 15px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 100px;
+    border-top: 1px solid #ccc;
+}
+address h3{
+    font-size: 15px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 400px;
+}
+address span{
+    font-size: 12px;
+}
