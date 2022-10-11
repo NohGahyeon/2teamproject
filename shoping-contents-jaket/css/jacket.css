@@ -1,0 +1,373 @@
+
+#container{
+    width: 100%;
+    margin-top: 10px;
+}
+#container button{
+    cursor: pointer;
+}
+/* 상단 */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+}
+#h_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 160px;
+}
+.h_mn{
+    display: flex;
+    justify-content: end;
+    width: 1000px;
+    height: 20px;
+    display: flex;
+}
+.h_mn button{
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+}
+/* nav 메뉴 */
+header nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+header nav .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 50px;
+}
+.nav li button{
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.nav li button:hover{
+    background-color: #333;
+    color: white;
+}
+
+/* 컨텐츠 css 부분 */
+
+article{ /* 임시 */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article #content{ /* 임시 */
+    width: 1000px;
+    height: 100%;
+    
+}
+/* 컨텐츠 header */
+article .c-header {
+    width: 1000px;
+}
+article .path {
+    overflow: hidden;
+    height: 27px;
+    margin: 0 0 10px;
+}
+.path ol{
+    float: right;
+}
+.path li {
+    float: left;
+    height: 27px;
+    line-height: 25px;
+    color: black;
+}
+/* 컨텐츠 title  */
+article .c-title{
+    min-height: 30px;
+    margin: 10px 0;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #ddd;
+}
+#content .c- title .tit-baner {
+    margin: 0 0 40px;
+}
+.c-title h2{
+    padding: 0 0 0 12px;
+    color: #333;
+    font-size: 16px;
+}
+/* 메뉴 카테고리 */
+.c-menu {
+    width: 100%;
+    padding: 10px 0 0;
+    border: none;
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -4px;
+}
+.c-menu li{
+    width: 19.15%;
+    margin:0 .8% 10px 0;
+    display: inline-block;
+}
+.c-menu > li > a > button:hover {
+    background-color: rgba(0,0,0,.05);
+}
+.c-menu > li > a > button {
+    width: 100%;
+    line-height: 35px;
+    border: 1px solid #ddd;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 10px;
+    font-size: 12px;
+    letter-spacing: 0;
+    text-align: left;
+
+    background-color: white;
+}
+
+/* 콘텐츠 메인 아이템리스트 */
+
+.listmenu {
+    margin: 0 0 30px;
+}
+.function {
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 10px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.prdCount {
+    float: left;
+    padding: 0 0 0 15px;
+    line-height: 30px;
+}
+
+#type {
+    display: inline;
+    letter-spacing: -4px;
+}
+.ct-oderby li {
+    position: relative;
+    top: -3px;
+    display: inline-block;
+}
+.ct-oderby li a {
+    display: block;
+    margin: 0 0 0 -1px;
+    padding: 0 15px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    letter-spacing: 0;
+    text-align: center;
+    background: #fafafa;
+}
+.ct-oderby li a:hover {
+    background-color: white;
+    border-bottom:1px solid white;
+}
+.item-list {
+    width: 100%;
+    position: relative;
+    margin: 0 outo 80px;
+}
+.item-prdlist {
+    display: table;
+    position: relative;
+    width: 100%;
+    min-width: 756px;
+    line-height: 0;
+    font-size: 0;
+
+}
+.item {
+    width: 180px;
+    height: 300px;
+    margin: 5px  20px 40px 0;
+}
+.item-prdlist > li {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 17px;
+}
+.item-img {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    margin: 0 0 10px;
+    font-size: 0;
+    line-height: 0;
+
+    background-color: black;
+}
+
+.item-description {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+}
+.item-name {
+    display: block;
+    margin: 0 0 10px 5px;
+    word-break: break-all;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.item-name-font {
+    font-size: 12px;
+    color: #555555;
+    font-weight: bold;
+}
+.line-mov {
+    display: block;
+    height: 0px;
+    line-height: 0;
+    margin: 0 0 10px;
+    border-top: 1px solid #eee;
+}
+.itemspec li {
+    margin: 0 0 5px 15px ;
+    line-height: 17px;
+}
+.itemspec li span {
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+}
+.item-brand-span {
+    font-size: 5px;
+    color: #555555
+}
+
+
+
+
+
+
+
+
+/* 하단 부분 */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+footer .f_in{
+    width: 1000px;
+}
+footer .f_info{
+    padding: 15px 0;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+}
+footer .f_info li{
+    border-right: 1px solid #ccc;
+    height: 17px;
+}
+footer .f_info button{
+    width: 200px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+footer .f_info button:hover{
+    font-weight: 700;
+}
+.f_in .f_info li:last-child{
+    border-right: 0;
+}
+
+.f_in .f_info2{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.f_info2 div{
+    display: flex;
+    flex-direction: column;  
+    height: 200px;
+}
+.f_info2 .customer{
+    width: 330px;
+    border-right: 1px solid #ccc;
+    margin-right: 30px;
+}
+.customer h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.customer strong{
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+}
+.customer span{
+    font-size: 13px;
+    color: #333;
+    margin: 5px;
+}
+
+.f_info2 .return{
+    width: 450px;
+    margin-bottom: 15px;
+}
+.return h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.return strong{
+    margin: 10px 0;
+    font-size: 15px;
+    color: red;
+}
+.return span{
+    font-size: 13px;
+    color: #333;
+}
+.f_in address{
+    padding-top: 15px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 100px;
+    border-top: 1px solid #ccc;
+}
+address h3{
+    font-size: 15px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 400px;
+}
+address span{
+    font-size: 12px;
+}
