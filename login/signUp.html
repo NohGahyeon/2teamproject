@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="./css/header2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="h_top">
+                <ul class="h_mn">
+                    <li><button type="button">로그인</button> </li>
+                    <li><button type="button">회원가입</button> </li>
+                    <li><button type="button">장바구니</button> </li>
+                    <li><button type="button">마이페이지</button> </li>
+                </ul>
+                <div class="h_main">
+                    <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li><button type="button">OUTER</button></li>
+                    <li><button type="button">TOP</button></li>
+                    <li><button type="button">BOTTOM</button></li>
+                    <li><button type="button">HEADWEAR</button></li>
+                    <li><button type="button">ACCESSORY</button></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <div id="content">
+                <div class="path"></div>
+                <div class="titleArea">
+                    <h2>회원가입</h2>
+                </div>
+                <div class="ec-base-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row">회원구분
+                                    <img src="/header/images/img2.gif" alt="필수">
+                                </th>
+                                <td><input type="radio">개인회원</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">회원인증
+                                    <img src="/header/images/img2.gif" alt="필수">
+                                </th>
+                                <td>
+                                    <input type="radio">이메일인증
+                                    <ul>
+                                    <li>기본정보 > 이메일 항목에 입력하신 정보로 본인인증을 진행합니다.</li>
+                                    <li>회원가입 후에 입력하신 이메일 주소로 인증 메일이 발송되오니, 확인해 주시기 바랍니다.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3>기본정보</h3>
+                <p class="required">
+                    <img src="/header/images/img2.gif" alt="필수">필수입력사항
+                </p>
+                <div class="ec-base-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>아이디<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <input type="text">(영문소문자/숫자, 4~16자)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>비밀번호<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <input type="text">(영문 대소문자/숫자/특수문자 중 3가지 이상 조합, 8자~16자)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>비밀번호 확인<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>비밀번호 확인 질문<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <select id="hint">
+                                        <option value="hint_01">기억에 남는 추억의 장소는?</option>
+                                        <option value="hint_02">자신의 인생 좌우명은?</option>
+                                        <option value="hint_03">자신의 보물 제1호는?</option>
+                                        <option value="hint_04">가장 기억에 남는 선생님 성함은?</option>
+                                        <option value="hint_05">타인이 모르는 자신만의 신체비밀이 있다면?</option>
+                                        <option value="hint_06">추억하고 싶은 날짜가 있다면?</option>
+                                        <option value="hint_07">받았던 선물 중 기억에 남는 독특한 선물은?</option>
+                                        <option value="hint_08">유년시절 가장 생각나는 친구 이름은?</option>
+                                        <option value="hint_09">인상 깊게 읽은 책 이름은?</option>
+                                        <option value="hint_10">읽은 책 중에서 좋아하는 구절이 있다면?</option>
+                                        <option value="hint_11">자신이 두번째로 존경하는 인물은?</option>
+                                        <option value="hint_12">친구들에게 공개하지 않은 어릴 적 별명이 있다면?</option>
+                                        <option value="hint_13">초등학교 때 기억에 남는 짝꿍 이름은?</option>
+                                        <option value="hint_14">다시 태어나면 되고 싶은 것은?</option>
+                                        <option value="hint_15">내가 좋아하는 캐릭터는?</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>비밀번호 확인 답변<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>이름<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>주소<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <input type="text">
+                                    <button type="button">우편번호</button>
+                                    <br>
+                                    <input type="text"> 기본주소
+                                    <br>
+                                    <input type="text"> 나머지주소
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>일반전화</th>
+                                <td>
+                                    <select id="phone1" name="phone" >
+                                    <option value="02">02</option>
+                                    <option value="031">031</option>
+                                    <option value="032">032</option>
+                                    <option value="033">033</option>
+                                    <option value="041">041</option>
+                                    <option value="042">042</option>
+                                    <option value="043">043</option>
+                                    <option value="044">044</option>
+                                    <option value="051">051</option>
+                                    <option value="052">052</option>
+                                    <option value="053">053</option>
+                                    <option value="0508">0508</option>
+                                    </select>
+                                    - <input type="text" id="phone2" name="phone">
+                                    - <input type="text" id="phone3" name="phone">
+                                </td>
+                            </tr>
+                             <tr>
+                                <th>휴대전화<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <select id="mobile1" name="mobile">
+                                        <option value="010">010</option>
+                                        <option value="011">011</option>
+                                        <option value="016">016</option>
+                                        <option value="017">017</option>
+                                        <option value="018">018</option>
+                                        <option value="019">019</option>
+                                    </select>
+                                       - <input type="text">
+                                       - <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>이메일<img src="images/img2.gif" alt="필수"></th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3>전체 동의</h3>
+                <div class="ec-base-box">
+                    <p>
+                        <span class="ec-base-chk">
+                            <input type="checkbox">
+                            <div class="checkbox"></div>
+                        </span>
+                        <div class="agreeAllChecked">
+                            <strong>이용약관 및 개인정보수집 및 이용, 쇼핑정보 수신(선택)에 모두 동의합니다.</strong>
+                        </div>
+                    </p>
+                </div>
+                <div class="agreeArea">
+                    <h3>[필수] 이용약관 동의</h3>
+                    <div class="content">
+                        <div class="agreement"></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
