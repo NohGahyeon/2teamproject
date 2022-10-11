@@ -1,0 +1,419 @@
+element.style {
+}
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, img {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body, code {
+    font: 0.75em Verdana,Dotum,AppleGothic,sans-serif;
+    color: #353535;
+    background: #fff;
+}
+
+
+
+body, code, button, input, label, select, td, textarea {
+    zoom: 1;
+    line-height: 1.4em;
+    font: 12px 'Nanum Gothic','Roboto','Verdana','Open Sans','Dotum','AppleGothic','돋움','Dotum','Helvetica','sans-serif','xeicon' !important;
+    color: #333;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+.path {
+    display: block;
+    overflow: hidden;
+    *zoom: 1;
+    height: 27px;
+    margin: 0 0 10px;
+}
+
+
+.path span {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    white-space: nowrap;
+    text-indent: 100%;
+}
+
+.path ol {
+    float: right;
+}
+
+.path li a:hover {
+    opacity: .5;
+    text-decoration: none;
+}
+
+.path li:first-child a {
+    padding: 0 6px 0 8px;
+    background: url(/_wg/img/_ico/path_home.png) no-repeat 0 6px;
+    font-size: 0;
+}
+
+.path li a {
+    display: block;
+    height: 27px;
+    line-height: 25px;
+    color: #333 !important;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+a:focus, a:active, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.path li {
+    float: left;
+    height: 27px;
+    line-height: 25px;
+    padding: 0 0 0 12px;
+    margin: 0 0 0 8px;
+    color: #333;
+    background: url(//img.echosting.cafe24.com/skin/base/layout/ico_path.gif) no-repeat 0 8px;
+}
+
+li {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+
+
+
+.titleArea {
+    display: block;
+    margin: 0 0 15px;
+    border-bottom: 2px solid #333;
+    letter-spacing: -0.05em;
+    color: #333;
+}
+
+.titleArea h2 {
+    display: inline-block;
+    padding: 15px 15px 8px 15px;
+    background-size: 4px 20px;
+    font-size:23px;
+}
+
+
+
+.ec-base-box.typeMember {
+    padding: 0;
+}
+
+.ec-base-box {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #e8e8e8;
+    color: #404040;
+}
+
+.ec-base-box.typeMember .information{ /* 혜택정보 */
+    display: table;
+    table-layout: fixed;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ec-base-box.typeMember .information > .title {  /* 혜택정보 */
+    vertical-align: middle;
+}
+
+.ec-base-box.typeMember .information > .title, .ec-base-box.typeMember .information > .thumbnail { /* 혜택정보 */
+    display: table-cell;
+    padding: 0 15px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.xans-order-dcinfo h3 { /* 혜택정보  폰트 */
+    font-size: 12px;
+}
+
+
+
+
+
+.xans-order-basketpackage .xans-order-tabinfo { /* 배송상품 공간 마진*/
+    margin: 40px 0 0;
+}
+
+.ec-base-tab {  /* 배송상품  */
+    position: relative;
+}
+
+
+
+
+.ec-base-tab .menu {  /* 배송상품  */
+    margin: 0 0 20px;
+    border: 1px solid #cbcdce;
+    border-bottom-color: #202020;
+    border-left: 0;
+    background: #f2f2f2;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.ec-base-tab .menu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+.ec-base-tab .menu li{
+    float: left;
+    border-left: 1px solid #cdcdce;
+    background: #f2f2f2;
+}
+
+
+.ec-base-tab.typeLight .menu li.selected a {
+    background: #fff !important;
+}
+.ec-base-tab.typeLight .menu li.selected a {
+    margin: 0 0 -2px;
+    border-bottom: 1px solid #fff;
+    color: #404040;
+    background: #fff;
+}
+
+.ec-base-tab .menu li.selected:first-child a {
+    left: -1px;
+}
+
+
+.ec-base-tab .menu li.selected a {
+    position: relative;
+    top: -1px;
+    left: -2px;
+    margin: 0 0 -1px;
+    border: 1px solid #202020;
+    border-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+    background: #4a5164;
+}
+
+.ec-base-tab .menu li:first-child a {
+    margin-left: 0;
+}
+
+.ec-base-tab .menu li a {
+    display: block;
+    min-width: 187px;
+    margin: 0 0 0 -1px;
+    padding: 12px 5px 11px;
+    border-right: 1px solid #cbcdce;
+    color: #707070;
+    text-decoration: none;
+    outline: 0;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+.ec-base-tab > .right {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    line-height: 24px;
+    color: #909090;
+}
+
+
+.xans-order-basketpackage .xans-order-empty p { /* 비어있는 장바구니 */
+    margin: 50px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #707070;
+}
+
+p {                     /* 비어있는 장바구니 */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.ec-base-button.justify { /*상품주문,선택상품주문, 쇼핑계속 라인 */
+    position: relative;
+}
+
+.xans-order-basketpackage .xans-order-totalorder { /*상품주문,선택상품주문, 쇼핑계속 라인 */
+    margin: 10px 0 40px;
+}
+
+.ec-base-button { /*상품주문,선택상품주문, 쇼핑계속 라인 */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.ec-base-button:after { /*상품주문,선택상품주문, 쇼핑계속 라인 */
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+.ec-base-button .gRight {  /*쇼핑 계속하기 버튼 오른쪽 정렬*/
+    float: right;
+    text-align: right;
+}
+
+
+[class^='btn'][class*='Fix'].sizeM { /*전체상품선택*/
+    width: 120px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+[class^='btn'][class*='Fix'] { /*전체상품선택*/
+    width: 72px;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+[class^='btn'].sizeM { /*전체상품선택*/
+    padding: 10px 16px;
+}
+
+[class^='btnSubmit'], a[class^='btnSubmit'] { /*전체상품선택*/
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2px 8px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-family: "굴림",Gulim;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    word-spacing: -0.5px;
+    letter-spacing: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #4a5164;
+}
+
+
+[class^='btnEm'], a[class^='btnEm'] { /*선택상품주문*/
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2px 8px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-family: "굴림",Gulim;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    word-spacing: -0.5px;
+    letter-spacing: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #84868b;
+}
+
+[class^='btnNormal'], a[class^='btnNormal'] { /*쇼핑계속하기*/
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2px 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    font-family: "굴림",Gulim;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    word-spacing: -0.5px;
+    letter-spacing: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #222;
+    background-color: #fff;
+}
