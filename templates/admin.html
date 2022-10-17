@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/admin.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="h_top">
+                <ul class="h_mn">
+                    <li><button type="button">로그아웃</button> </li>
+                    <li><button type="button">내 상점</button> </li>
+                    <li><button type="button">1:1 고객센터</button> </li>
+                </ul>
+                <div class="h_main">
+                    <a href="#"><img src="/static/images/logo.png" alt="logo"></a>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li><button type="button">상품 조회</button></li>
+                    <li><button type="button">상품 등록</button></li>
+                    <li><button type="button">시스템 정보</button></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <div class="admin-main">
+                <select class="product-inputs">
+                    <option value="none">상품 종류</option>
+                    <option value="">OUTER</option>
+                    <option value="">TOP</option>
+                    <option value="">BOTTOM</option>
+                    <option value="">HEADWEAR</option>
+                    <option value="">ACCESSORY</option>
+                </select>
+            </div>
+            <!-- 스크롤 위로 올리는 div -->
+            <div class="view_up"> 
+                <button type="button"><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+        </article>
+        <footer>
+            <div class="f_in">
+                <ul class="f_info">
+                    <li><button type="button">회사소개</button></li>
+                    <li><button type="button">이용약관</button></li>
+                    <li><button type="button">쇼핑몰이용안내</button></li>
+                    <li><button type="button">개인정보취급방침</button></li>
+                    <li><button type="button">고객센터</button></li>
+                </ul>
+                <div class="f_info2">
+                    <div class="customer">
+                        <h3>CUSTOMER CENTER</h3>
+                        <strong><i class="fa-solid fa-phone"></i>  1600-1593</strong>
+                        <span><b>평일</b> 오전 10:00 ~ 오후 06:00</span>
+                        <span><b>점심</b> 오후 01:00 ~ 오후 02:00</span>
+                        <span><b>온라인 고객센터</b> 1600-1593 (내선번호 1번)</span>
+                    </div>
+                    <div class="return">
+                        <h3>RETURN & EXCHANGE</h3>
+                        <strong>온라인 스토어는 각 입점업체(브랜드)에서 발송되는 상품과
+                            자체 발송되는 상품으로 나누어져 있습니다.<br></strong>
+                        <span>브랜드 및 제품에 따라 출고지가 다르기 때문에 고객님께 보낸 주소 그대로
+                            <br>각 입점 업체측으로 반송하셔야 처리됩니다.
+                            <br>각 브랜드 주소가 아닌 온라인스토어로 반품을 보내실 경우
+                            <br>처리지연 또는 추가 배송비가 발생할 수 있습니다.</div>
+                        </span>
+                    </div>
+                    <address>
+                        <h3>회사정보</h3>
+                        <span>상호명: 주식회사롸킥스  대표자명: 정현우  대표전화: 1600-1593
+                            <br>소재지: 14558 경기도 부천시 원미동 9-9 3층
+                            <br>사업자 등록번호: 372-87-01069
+                        </span>
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/static/js/head-footer.js"></script>
+</body>
+</html>

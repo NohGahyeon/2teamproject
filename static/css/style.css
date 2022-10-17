@@ -39,6 +39,9 @@ header{
     background-color: rgba(0, 0, 0, 0);
     font-size: 12px;
 }
+.h_mn button:hover{
+    text-decoration: underline;
+}
 /* nav 메뉴 */
 header nav{
     display: flex;
