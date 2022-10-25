@@ -1,0 +1,79 @@
+.account-login {
+    position: relative;
+    width: 400px;
+    margin: 20px auto 50px;
+}
+
+.login-title {
+    min-height: 30px;
+    margin: 0 0 20px;
+    border: 0;
+    font-family: 'Oswald','Nanum Gothic';
+}
+.login-title h3 {
+    display: block;
+    clear: both;
+    margin: 0;
+    text-align: center;
+    font-size: 41px;
+    color: #333;
+    font-weight: normal;
+}
+
+.login-title span {
+    display: block;
+    clear: both;
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+
+
+.password {
+    overflow: hidden;
+    display: block;
+    margin: 0 0 10px;
+}
+.id {
+    overflow: hidden;
+    display: block;
+    margin: 0 0 10px;
+}
+
+fieldset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: top;
+
+
+    position: relative;
+}
+.login-user fieldset input {
+    width: 396px;
+    height: 40px;
+    line-height: 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px !important;
+    text-indent: 10px;
+    letter-spacing: 0.1em;
+    transition: border-bottom .5s ease-in-out;
+
+    outline: none !important;
+}
+
+
+
+input[type=id-text],
+input[type=password-text] {
+    height: 18px;
+    line-height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+    color: #353535;
+    font-size: 12px;
+}
