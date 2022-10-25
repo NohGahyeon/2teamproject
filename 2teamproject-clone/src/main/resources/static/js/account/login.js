@@ -1,0 +1,1 @@
+const registerGoButton = document.querySelectAll(".account")

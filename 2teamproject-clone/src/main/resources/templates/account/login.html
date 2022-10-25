@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>h-f</title>
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="/static/css/account/account.css">
     <link rel="stylesheet" href="/static/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/static/css/account/resgister.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -36,46 +35,45 @@
             </nav>
         </header>
         <article>
-            <!-- <form id="joinform"> -->
-            <div class="register-title">
-                <h2>회원가입</h2>
-            </div>
-            <div class="reister">
-                <h3>기본정보</h3>
-                <div class="register-table">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <th>아이디</th>
-                                <td> <input type="register-text" class="register-input" placeholder="아이디"></td>
-                            </tr>
-                            <tr>
-                                <th>이름</th>
-                                <td><input type="register-text" class="register-input" placeholder="이름"></td>
-                            </tr>
-                            <tr>
-                                <th>이메일</th>
-                                <td><input type="register-text" class="register-input" placeholder="이메일"></td>
-                            </tr>
-                            <tr>
-                                <th>비밀번호</th>
-                                <td><input type="register-text" class="register-input" placeholder="비밀번호"></td>
-                            </tr>
-                        </tbody>
-                       
-                    </table>
-                    <a href="" class="register-btn">
-                        확인
-                    </a>
-                </div>
-            </div>
+                    <form id="account">
+                        <div class="account-login">
+                            <div class="login-user">
+                                <div class="login-title">
+                                    <h3>LOGIN</h3>
+                                    <span>WELCOM BACK</span>
+                                </div>
+                                <fieldset>
+                                    <label class="id ">
+                                        <input type="id-text" class="id-user" title="아이디">
+                                        
+                                    </label>
+                                    <label class="password ">
+                                        <input type="password-text" class="password-user" title="비밀번호">
+                                        
+                                    </label>
+                                </fieldset>
+                                <a href="" class="login-btn">
+                                    로그인
+                                </a>
+                            </div>
+                            <ul class="account-btn">
+                                <li>
+                                    <a href="">아이디찾기</a>
+                                </li>
+                                <li>
+                                    <a href="">비밀번호 찾기</a>
+                                </li>
+                                <li>
+                                    <a href="">회원가입</a>
+                                </li>
 
-            <!-- </form> -->
+                            </ul>
+                        </div>
+                    </form>
             <!-- 스크롤 위로 올리는 div -->
             <div class="view_up"> 
                 <button type="button"><i class="fa-solid fa-arrow-up"></i></button>
             </div>
-            
         </article>
         <footer>
             <div class="f_in">
@@ -115,7 +113,6 @@
             </div>
         </footer>
     </div>
-    <script src="/static/js/account/register.js"></script>
     <script src="/static/js/head-footer.js"></script>
 </body>
 </html>

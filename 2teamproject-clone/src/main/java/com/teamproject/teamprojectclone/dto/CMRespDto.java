@@ -1,4 +1,4 @@
-package com.teamproject.teamprojectclone.Dto;
+package com.teamproject.teamprojectclone.dto;
 
 
 import lombok.AllArgsConstructor;
