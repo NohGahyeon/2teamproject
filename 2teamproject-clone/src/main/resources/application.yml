@@ -1,0 +1,6 @@
+server:
+  port: 5501
+
+spring:
+  mvc:
+    static-path-pattern: /static/**
