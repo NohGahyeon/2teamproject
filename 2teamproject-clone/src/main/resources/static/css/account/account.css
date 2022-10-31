@@ -72,8 +72,8 @@ fieldset {
 
 
 
-input[type=id-text],
-input[type=password-text] {
+input[type=id],
+input[type=password] {
     height: 18px;
     line-height: 20px;
     padding: 2px 4px;
@@ -81,6 +81,8 @@ input[type=password-text] {
     color: #353535;
     font-size: 12px;
 }
+
+
 
 
 .login-btn {

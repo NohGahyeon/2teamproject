@@ -13,7 +13,7 @@ public class AccountController {
     }
 
     @GetMapping("/account/register")
-    public String register(RegisterReqDto registerReqDto) {
+    public String register() {
         return "account/register";
     }
 }

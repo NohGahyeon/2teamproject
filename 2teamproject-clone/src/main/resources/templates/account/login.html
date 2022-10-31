@@ -35,7 +35,7 @@
             </nav>
         </header>
         <article>
-                    <form id="account">
+                    <form id="account" action="" method="post">
                         <div class="account-login">
                             <div class="login-user">
                                 <div class="login-title">
@@ -44,17 +44,15 @@
                                 </div>
                                 <fieldset>
                                     <label class="id ">
-                                        <input type="id-text" class="id-user" title="아이디">
+                                        <input type="id" class="id-user" placeholder="아이디" required>
                                         
                                     </label>
                                     <label class="password ">
-                                        <input type="password-text" class="password-user" title="비밀번호">
+                                        <input type="password" class="password-user" placeholder="비밀번호" required>
                                         
                                     </label>
                                 </fieldset>
-                                <a href="" class="login-btn">
-                                    로그인
-                                </a>
+                                <button class="login-btn">로그인</button>
                             </div>
                             <ul class="account-btn">
                                 <li>

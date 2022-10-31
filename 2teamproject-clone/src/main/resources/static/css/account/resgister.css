@@ -67,4 +67,14 @@ input[type="register-text"] {
     
     font-size: 15px;
     line-height: 47px;
+}
 
+.errors {
+    margin-bottom: 15px;
+    color: #e74c3c;
+    text-align: center;
+}
+
+.errors-invisible {
+    display: none;
+}
