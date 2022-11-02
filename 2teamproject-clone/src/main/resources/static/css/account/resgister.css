@@ -43,7 +43,7 @@
     word-wrap: break-word;
 }
 
-input[type="register-text"] {
+.register-text {
     height: 18px;
     line-height: 20px;
     padding: 2px 4px;

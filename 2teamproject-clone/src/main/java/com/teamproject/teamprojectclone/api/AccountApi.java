@@ -1,6 +1,7 @@
 package com.teamproject.teamprojectclone.api;
 
 
+import com.teamproject.teamprojectclone.aop.annotation.LogAspect;
 import com.teamproject.teamprojectclone.dto.CMRespDto;
 import com.teamproject.teamprojectclone.dto.RegisterReqDto;
 import com.teamproject.teamprojectclone.dto.validation.ValidationSequence;
@@ -20,6 +21,7 @@ import java.util.Map;
 @RestController
 public class AccountApi {
 
+    @LogAspect
     @PostMapping("/register")
     public ResponseEntity<?> register(@Validated(ValidationSequence.class) @RequestBody RegisterReqDto registerReqDto, BindingResult bindingResult) {
         return ResponseEntity.created(null).body(new CMRespDto<>("회원가입 성공", registerReqDto));
