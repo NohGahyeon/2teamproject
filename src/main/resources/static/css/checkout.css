@@ -1,0 +1,358 @@
+*{
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    margin-top: 10px;
+}
+#container button{
+    cursor: pointer;
+}
+/* 상단 */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+}
+#h_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 160px;
+}
+.h_mn{
+    display: flex;
+    justify-content: end;
+    width: 1000px;
+    height: 20px;
+    display: flex;
+}
+.h_mn button{
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+}
+.h_mn button:hover{
+    text-decoration: underline;
+}
+/* nav 메뉴 */
+header nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+header nav .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 50px;
+}
+.nav li button{
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.nav li button:hover{
+    background-color: #333;
+    color: white;
+}
+
+/* 컨텐츠 css 부분 */
+
+/* 주문창 */
+
+article{ /* 임시 */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article #content{ /* 임시 */
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    margin: 20px auto;
+}
+.title h3{
+    font-size:14px;
+    color: gray;
+    margin-bottom : 10px;
+}
+
+.order-product {
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom: 40px;
+}
+
+.order-product thead th{
+    padding: 11px 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #353535;
+    font-weight: normal; 
+    background: #fbfafa;
+}
+.orderProduct-detail {
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+
+
+.orderProduct-detail td:first-child{
+    width: 27px;
+    height:37.5px;
+    text-align: center;
+}
+
+.orderProduct-detail td:nth-child(2){
+    width:92px;
+    height: 96px;
+}
+.orderProduct-detail td:nth-child(3){
+    width:589px;
+    height: 96px;
+}
+.orderProduct-detail td:nth-child(4){
+    width:98px;
+    height: 96px;
+}
+.orderProduct-detail td:nth-child(5){
+    width:92px;
+    height: 96px;
+}
+
+.product-img {
+    width: 75px;
+    height: 75px;
+
+}
+
+
+.titleArea {
+    border-bottom: 2px solid gray;
+    height:40px;
+    margin-bottom: 25px;
+}
+
+.titleArea h3{
+    font-size: 25px;
+}
+
+.orderArea h3 {
+    font-size:14px;
+    color: gray;
+}
+
+.orderInfoInput {
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    margin: 10px 0 0;
+    border-collapse: collapse;
+}
+
+
+.orderInfoInput tbody th{
+    width: 150px;
+    padding: 11px 0 10px 18px;
+    border: 1px solid #dfdfdf;
+    border-left:none;
+    color: #353535;
+    text-align: left;
+    font-weight: normal;
+}
+
+.detailInput td {
+    padding: 11px 10px 10px;
+    border: 1px solid #dfdfdf;
+    border-right:none;
+    color: #353535;
+}
+
+.address-zonecode {
+    width: 10%;
+}
+
+.detailInput td input {
+    align-items: center;
+}
+
+.address-detail, .address-basic {
+    display:flex;
+    margin-top: 7px;
+    width: 30%;
+}
+
+.detailInput li {
+    color:gray;
+    font-weight: lighter;
+    font-size: 9px;
+    margin-top: 3px;
+}
+
+input {
+    border: 1px solid rgb(198,198,198);
+    padding: 3px;
+}
+
+/* 결제 */
+
+.kakaopay-button {
+    margin: 40px;
+    width: 400px;
+    height: 50px;
+}
+
+.kakaopay-button img {
+    width:400px;
+    height: 50px;
+
+}
+
+
+/* 스크롤 업 버튼  */
+article .view_up{
+    position: fixed;
+    right: 70px;
+    bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+
+}
+.view_up button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.view_up button i{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    color: #333;
+}
+
+/* 하단 부분 */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+footer .f_in{
+    width: 1000px;
+}
+footer .f_info{
+    padding: 15px 0;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+}
+footer .f_info li{
+    border-right: 1px solid #ccc;
+    height: 17px;
+}
+footer .f_info button{
+    width: 200px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+footer .f_info button:hover{
+    font-weight: 700;
+}
+.f_in .f_info li:last-child{
+    border-right: 0;
+}
+
+.f_in .f_info2{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.f_info2 div{
+    display: flex;
+    flex-direction: column;  
+    height: 200px;
+}
+.f_info2 .customer{
+    width: 330px;
+    border-right: 1px solid #ccc;
+    margin-right: 30px;
+}
+.customer h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.customer strong{
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+}
+.customer span{
+    font-size: 13px;
+    color: #333;
+    margin: 5px;
+}
+
+.f_info2 .return{
+    width: 450px;
+    margin-bottom: 15px;
+}
+.return h3{
+    font-size: 17px;
+    width: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.return strong{
+    margin: 10px 0;
+    font-size: 15px;
+    color: red;
+}
+.return span{
+    font-size: 13px;
+    color: #333;
+}
+.f_in address{
+    padding-top: 15px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 100px;
+    border-top: 1px solid #ccc;
+}
+address h3{
+    font-size: 15px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 400px;
+}
+address span{
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

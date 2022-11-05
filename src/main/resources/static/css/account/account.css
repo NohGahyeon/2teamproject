@@ -1,0 +1,128 @@
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#account {
+    margin: 50px;
+    width: 450px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+.account-login {
+    margin: 40px 0px;
+}
+
+.login-title {
+    min-height: 30px;
+    margin: 0 0 20px;
+    border: 0;
+    font-family: 'Oswald','Nanum Gothic';
+}
+.login-title h3 {
+    display: block;
+    clear: both;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    font-weight: normal;
+}
+
+.login-title span {
+    display: block;
+    clear: both;
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    font-weight: normal;
+}
+
+.login-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-user fieldset .id,
+.login-user fieldset .password {
+    overflow: hidden;
+    display: block;
+    margin: 0 0 10px;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    list-style: none;
+    margin-top: 30px;
+    border: none;
+    vertical-align: top;
+}
+.login-user fieldset input {
+    width: 390px;
+    height: 30px;
+    line-height: 45px;
+
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.login-user fieldset input:focus {
+    border-bottom: #333;
+}
+
+
+
+input[type=id],
+input[type=password] {
+    height: 18px;
+    line-height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+    color: #353535;
+    font-size: 12px;
+}
+
+
+.login-btn {
+
+    margin-top: 20px;
+    height: 45px;
+    width: 80%;
+    
+    color: #fff;
+    background-color: #333;
+    
+    font-size: 13px;
+    line-height: 47px;
+
+}
+
+.account-btn {
+    display: block;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.account-btn li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 9px 0 13px;
+}
+
+.account-btn li a {
+    font-size: 14px;
+    color: #666;
+}
